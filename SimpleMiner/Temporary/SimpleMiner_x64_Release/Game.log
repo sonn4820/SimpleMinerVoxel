@@ -1,0 +1,9 @@
+﻿  World.cpp
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 3866 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Game.vcxproj -> D:\p4\Personal\SD\SimpleMiner\Temporary\SimpleMiner_x64_Release\SimpleMiner_Release_x64.exe
+  Copying SimpleMiner_Release_x64.exe to D:\p4\Personal\SD\SimpleMiner\Run...
+  D:\p4\Personal\SD\SimpleMiner\Temporary\SimpleMiner_x64_Release\SimpleMiner_Release_x64.exe -> D:\p4\Personal\SD\SimpleMiner\Run\SimpleMiner_Release_x64.exe
+  1 File(s) copied

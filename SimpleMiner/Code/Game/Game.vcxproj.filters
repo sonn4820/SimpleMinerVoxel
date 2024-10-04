@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{548a8f28-1bab-43a9-b99a-20a9ddfcce6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Game System">
+      <UniqueIdentifier>{d5dc1590-be54-408e-ad30-645e77a30f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Misc">
+      <UniqueIdentifier>{fbf456cb-8dca-4f02-8c1a-b8b066ebbc48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Obj">
+      <UniqueIdentifier>{748106cf-7f9c-4026-9270-dfd1b4ee2585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{c2bc74b0-aac9-4044-a9e1-19d676bc4c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\World">
+      <UniqueIdentifier>{d8a8327a-b9ca-4bb0-986a-45d2886425c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Gameplay\Game System</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Gameplay\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Gameplay\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Gameplay\World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Gameplay\Game System</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Gameplay\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Gameplay\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>Gameplay\World</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run\Data\GameConfig.xml">
+      <Filter>XML</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
